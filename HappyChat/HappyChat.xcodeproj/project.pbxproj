@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B61F2BD26B5C59D009B8EA1 /* HappyChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2BC26B5C59D009B8EA1 /* HappyChatApp.swift */; };
+		9B61F2BF26B5C59D009B8EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2BE26B5C59D009B8EA1 /* ContentView.swift */; };
+		9B61F2C126B5C59F009B8EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B61F2C026B5C59F009B8EA1 /* Assets.xcassets */; };
+		9B61F2C426B5C59F009B8EA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B61F2C326B5C59F009B8EA1 /* Preview Assets.xcassets */; };
+		9B61F2CE26B5C5EA009B8EA1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2CD26B5C5EA009B8EA1 /* Card.swift */; };
+		9B61F2D026B5CB4D009B8EA1 /* FirstEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2CF26B5CB4D009B8EA1 /* FirstEntry.swift */; };
+		9B61F2D226B5E092009B8EA1 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2D126B5E092009B8EA1 /* Landmark.swift */; };
+		9B61F2D426B5E099009B8EA1 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61F2D326B5E099009B8EA1 /* LandmarkList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B61F2B926B5C59D009B8EA1 /* HappyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B61F2BC26B5C59D009B8EA1 /* HappyChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyChatApp.swift; sourceTree = "<group>"; };
+		9B61F2BE26B5C59D009B8EA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B61F2C026B5C59F009B8EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B61F2C326B5C59F009B8EA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B61F2C526B5C59F009B8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B61F2CD26B5C5EA009B8EA1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9B61F2CF26B5CB4D009B8EA1 /* FirstEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstEntry.swift; sourceTree = "<group>"; };
+		9B61F2D126B5E092009B8EA1 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9B61F2D326B5E099009B8EA1 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B61F2B626B5C59D009B8EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B61F2B026B5C59D009B8EA1 = {
+			isa = PBXGroup;
+			children = (
+				9B61F2BB26B5C59D009B8EA1 /* HappyChat */,
+				9B61F2BA26B5C59D009B8EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B61F2BA26B5C59D009B8EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B61F2B926B5C59D009B8EA1 /* HappyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B61F2BB26B5C59D009B8EA1 /* HappyChat */ = {
+			isa = PBXGroup;
+			children = (
+				9B61F2BC26B5C59D009B8EA1 /* HappyChatApp.swift */,
+				9B61F2BE26B5C59D009B8EA1 /* ContentView.swift */,
+				9B61F2CF26B5CB4D009B8EA1 /* FirstEntry.swift */,
+				9B61F2CD26B5C5EA009B8EA1 /* Card.swift */,
+				9B61F2D326B5E099009B8EA1 /* LandmarkList.swift */,
+				9B61F2D126B5E092009B8EA1 /* Landmark.swift */,
+				9B61F2C026B5C59F009B8EA1 /* Assets.xcassets */,
+				9B61F2C526B5C59F009B8EA1 /* Info.plist */,
+				9B61F2C226B5C59F009B8EA1 /* Preview Content */,
+			);
+			path = HappyChat;
+			sourceTree = "<group>";
+		};
+		9B61F2C226B5C59F009B8EA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B61F2C326B5C59F009B8EA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B61F2B826B5C59D009B8EA1 /* HappyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B61F2C826B5C59F009B8EA1 /* Build configuration list for PBXNativeTarget "HappyChat" */;
+			buildPhases = (
+				9B61F2B526B5C59D009B8EA1 /* Sources */,
+				9B61F2B626B5C59D009B8EA1 /* Frameworks */,
+				9B61F2B726B5C59D009B8EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyChat;
+			productName = HappyChat;
+			productReference = 9B61F2B926B5C59D009B8EA1 /* HappyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B61F2B126B5C59D009B8EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9B61F2B826B5C59D009B8EA1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B61F2B426B5C59D009B8EA1 /* Build configuration list for PBXProject "HappyChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B61F2B026B5C59D009B8EA1;
+			productRefGroup = 9B61F2BA26B5C59D009B8EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B61F2B826B5C59D009B8EA1 /* HappyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B61F2B726B5C59D009B8EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B61F2C426B5C59F009B8EA1 /* Preview Assets.xcassets in Resources */,
+				9B61F2C126B5C59F009B8EA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B61F2B526B5C59D009B8EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B61F2BF26B5C59D009B8EA1 /* ContentView.swift in Sources */,
+				9B61F2D426B5E099009B8EA1 /* LandmarkList.swift in Sources */,
+				9B61F2D026B5CB4D009B8EA1 /* FirstEntry.swift in Sources */,
+				9B61F2CE26B5C5EA009B8EA1 /* Card.swift in Sources */,
+				9B61F2BD26B5C59D009B8EA1 /* HappyChatApp.swift in Sources */,
+				9B61F2D226B5E092009B8EA1 /* Landmark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B61F2C626B5C59F009B8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B61F2C726B5C59F009B8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B61F2C926B5C59F009B8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = W92D72LWZP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.HappyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B61F2CA26B5C59F009B8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = W92D72LWZP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.HappyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B61F2B426B5C59D009B8EA1 /* Build configuration list for PBXProject "HappyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B61F2C626B5C59F009B8EA1 /* Debug */,
+				9B61F2C726B5C59F009B8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B61F2C826B5C59F009B8EA1 /* Build configuration list for PBXNativeTarget "HappyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B61F2C926B5C59F009B8EA1 /* Debug */,
+				9B61F2CA26B5C59F009B8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B61F2B126B5C59D009B8EA1 /* Project object */;
+}
